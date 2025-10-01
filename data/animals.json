@@ -1,0 +1,92 @@
+{
+  "dog": {
+    "name": "Dog",
+    "images": [
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb",
+      "https://images.unsplash.com/photo-1558788353-f76d92427f16",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e",
+      "https://images.unsplash.com/photo-1561037404-61cd46aa615b",
+      "https://images.unsplash.com/photo-1534361960057-19889db9621e"
+    ],
+    "gifs": [
+      "https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif",
+      "https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif",
+      "https://media.giphy.com/media/LrmU6jXV2njkjFM8o9/giphy.gif"
+    ]
+  },
+  "cat": {
+    "name": "Cat",
+    "images": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba",
+      "https://images.unsplash.com/photo-1573865526739-10c1dd0ae1dd",
+      "https://images.unsplash.com/photo-1495360010541-f48722b34f7d",
+      "https://images.unsplash.com/photo-1529778873920-4da4926a72c2",
+      "https://images.unsplash.com/photo-1592194996308-7b43878e84a6"
+    ],
+    "gifs": [
+      "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif",
+      "https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif",
+      "https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif"
+    ]
+  },
+  "turtle": {
+    "name": "Turtle",
+    "images": [
+      "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f",
+      "https://images.unsplash.com/photo-1593996009451-71e43be0b413",
+      "https://images.unsplash.com/photo-1563424840-d8d7e0b3bb25",
+      "https://images.unsplash.com/photo-1598359361737-e41299ccd61b",
+      "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e"
+    ],
+    "gifs": [
+      "https://media.giphy.com/media/lXiRG8Z0zGOjyQgjW/giphy.gif",
+      "https://media.giphy.com/media/H4uE6w9G1uK4M/giphy.gif",
+      "https://media.giphy.com/media/3oKIPqsXYcdjcBcXL2/giphy.gif"
+    ]
+  },
+  "duck": {
+    "name": "Duck",
+    "images": [
+      "https://images.unsplash.com/photo-1551244072-5d12893278ab",
+      "https://images.unsplash.com/photo-1586687109942-4bfb2c945ff8",
+      "https://images.unsplash.com/photo-1549566968-9a509264b0b9",
+      "https://images.unsplash.com/photo-1598626428266-e91decf48961",
+      "https://images.unsplash.com/photo-1560761218-d0b8c6e86787"
+    ],
+    "gifs": [
+      "https://media.giphy.com/media/J4yn9XYLIRNzW/giphy.gif",
+      "https://media.giphy.com/media/tXL4FHPSnVJ0A/giphy.gif",
+      "https://media.giphy.com/media/3oKIPnbKgN3bXeVpvy/giphy.gif"
+    ]
+  },
+  "gopher": {
+    "name": "Gopher",
+    "images": [
+      "https://images.unsplash.com/photo-1589952283406-b53fb5f732bc",
+      "https://images.unsplash.com/photo-1611917703308-8c4b9c2f3143",
+      "https://images.unsplash.com/photo-1626947338263-c5617f8f3b03",
+      "https://images.unsplash.com/photo-1612024782955-49b3b1f3c2ae",
+      "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60"
+    ],
+    "gifs": [
+      "https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif",
+      "https://media.giphy.com/media/26tkmyR14UIPJJOG4/giphy.gif",
+      "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif"
+    ]
+  },
+  "rhino": {
+    "name": "Rhino",
+    "images": [
+      "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+      "https://images.unsplash.com/photo-1551782450-17144efb9c50",
+      "https://images.unsplash.com/photo-1621380667344-13830a0b7c3d",
+      "https://images.unsplash.com/photo-1568459929915-63d0a7a0ca67",
+      "https://images.unsplash.com/photo-1617704448461-7f5ce7633079"
+    ],
+    "gifs": [
+      "https://media.giphy.com/media/3oKIPl97G9KsnxS3XG/giphy.gif",
+      "https://media.giphy.com/media/l0HlMPcbD4jdARjRC/giphy.gif",
+      "https://media.giphy.com/media/xT0xeMrCDPZuO1AwSc/giphy.gif"
+    ]
+  }
+}
