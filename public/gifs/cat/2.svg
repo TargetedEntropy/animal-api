@@ -9,5 +9,4 @@
   <circle cx="215" cy="145" r="9" fill="#32CD32">
     <animate attributeName="r" values="9;4;9" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Cat GIF #2</text>
 </svg>

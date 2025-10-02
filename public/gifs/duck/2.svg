@@ -8,5 +8,4 @@
   </circle>
   <circle cx="158" cy="138" r="8" fill="#000"/>
   <ellipse cx="145" cy="148" rx="28" ry="16" fill="#FFB347"/>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">Duck GIF #2</text>
 </svg>

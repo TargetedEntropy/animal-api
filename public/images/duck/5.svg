@@ -6,5 +6,4 @@
   <ellipse cx="144" cy="147" rx="27" ry="16" fill="#FFB74D"/>
   <ellipse cx="217" cy="187" rx="16" ry="9" fill="#FF4500"/>
   <ellipse cx="197" cy="187" rx="16" ry="9" fill="#FF4500"/>
-  <text x="200" y="250" font-family="Arial" font-size="24" fill="#333" text-anchor="middle">Duck #5</text>
 </svg>

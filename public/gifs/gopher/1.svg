@@ -18,5 +18,4 @@
       <animate attributeName="cy" values="110;105;110" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Gopher GIF #1</text>
 </svg>

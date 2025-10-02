@@ -9,5 +9,4 @@
   <circle cx="232" cy="112" r="11" fill="#CD853F"/>
   <rect x="188" y="148" width="7" height="14" fill="#FFF"/>
   <rect x="205" y="148" width="7" height="14" fill="#FFF"/>
-  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Gopher #2</text>
 </svg>

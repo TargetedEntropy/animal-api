@@ -7,5 +7,4 @@
   <circle cx="206" cy="125" r="4" fill="#000"/>
   <circle cx="152" cy="180" r="10" fill="#3CB371"/>
   <circle cx="248" cy="180" r="10" fill="#3CB371"/>
-  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Turtle #4</text>
 </svg>

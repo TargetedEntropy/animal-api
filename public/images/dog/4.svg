@@ -4,5 +4,4 @@
   <circle cx="180" cy="145" r="10" fill="#000"/>
   <circle cx="220" cy="145" r="10" fill="#000"/>
   <polygon points="200,175 190,185 210,185" fill="#000"/>
-  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Dog #4</text>
 </svg>

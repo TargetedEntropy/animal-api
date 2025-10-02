@@ -12,5 +12,4 @@
   <path d="M 185 160 L 200 167 L 215 160" stroke="#000" stroke-width="2" fill="none">
     <animate attributeName="d" values="M 185 160 L 200 167 L 215 160; M 185 160 L 200 164 L 215 160; M 185 160 L 200 167 L 215 160" dur="2s" repeatCount="indefinite"/>
   </path>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Cat GIF #3</text>
 </svg>

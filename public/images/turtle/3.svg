@@ -7,5 +7,4 @@
   <circle cx="208" cy="127" r="5" fill="#000"/>
   <ellipse cx="148" cy="178" rx="12" ry="8" fill="#556B2F"/>
   <ellipse cx="252" cy="178" rx="12" ry="8" fill="#556B2F"/>
-  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Turtle #3</text>
 </svg>

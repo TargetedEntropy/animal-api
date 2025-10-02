@@ -9,5 +9,4 @@
   <circle cx="215" cy="145" r="8" fill="#000">
     <animate attributeName="cx" values="215;235;215;195;215" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Dog GIF #3</text>
 </svg>

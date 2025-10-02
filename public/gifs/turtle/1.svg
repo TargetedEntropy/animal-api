@@ -9,5 +9,4 @@
     <circle cx="194" cy="132" r="4" fill="#000"/>
     <circle cx="206" cy="132" r="4" fill="#000"/>
   </g>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Turtle GIF #1</text>
 </svg>

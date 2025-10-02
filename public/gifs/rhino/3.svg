@@ -20,5 +20,4 @@
       <animate attributeName="cy" values="192;194;192;194;192" dur="2s" begin="0.3s" repeatCount="indefinite"/>
     </ellipse>
   </g>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">Rhino GIF #3</text>
 </svg>

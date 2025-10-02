@@ -12,5 +12,4 @@
   <ellipse cx="198" cy="183" rx="14" ry="8" fill="#FF6347">
     <animate attributeName="cx" values="198;201;198;195;198" dur="2s" repeatCount="indefinite"/>
   </ellipse>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">Duck GIF #3</text>
 </svg>

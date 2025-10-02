@@ -10,5 +10,4 @@
     </polygon>
     <circle cx="150" cy="135" r="7" fill="#000"/>
   </g>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Rhino GIF #1</text>
 </svg>

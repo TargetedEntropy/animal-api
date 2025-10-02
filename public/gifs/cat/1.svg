@@ -13,5 +13,4 @@
     <circle cx="185" cy="145" r="4" fill="#000"/>
     <circle cx="215" cy="145" r="4" fill="#000"/>
   </g>
-  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Cat GIF #1</text>
 </svg>
