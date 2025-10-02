@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#9A7B5F"/>
+  <ellipse cx="200" cy="170" rx="60" ry="70" fill="#DEB887">
+    <animate attributeName="cy" values="170;160;170" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="200" cy="128" r="38" fill="#DEB887">
+    <animate attributeName="cy" values="128;118;128" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="187" cy="123" r="8" fill="#000">
+    <animate attributeName="cy" values="123;113;123" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="213" cy="123" r="8" fill="#000">
+    <animate attributeName="cy" values="123;113;123" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">Gopher GIF #3</text>
+</svg>

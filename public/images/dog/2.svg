@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#654321"/>
+  <ellipse cx="200" cy="150" rx="80" ry="60" fill="#8B4513"/>
+  <circle cx="170" cy="135" r="10" fill="#000"/>
+  <circle cx="230" cy="135" r="10" fill="#000"/>
+  <ellipse cx="200" cy="165" rx="15" ry="10" fill="#000"/>
+  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Dog #2</text>
+</svg>

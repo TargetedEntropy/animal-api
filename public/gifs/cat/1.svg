@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#3C3C3C"/>
+  <g id="cat">
+    <circle cx="200" cy="150" r="50" fill="#808080"/>
+    <polygon points="160,110 150,85 170,105" fill="#808080">
+      <animateTransform attributeName="transform" type="rotate" values="0 160 110; -15 160 110; 0 160 110" dur="1s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="240,110 250,85 230,105" fill="#808080">
+      <animateTransform attributeName="transform" type="rotate" values="0 240 110; 15 240 110; 0 240 110" dur="1s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="185" cy="145" r="8" fill="#FFD700"/>
+    <circle cx="215" cy="145" r="8" fill="#FFD700"/>
+    <circle cx="185" cy="145" r="4" fill="#000"/>
+    <circle cx="215" cy="145" r="4" fill="#000"/>
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Cat GIF #1</text>
+</svg>

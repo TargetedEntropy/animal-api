@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#9A9289"/>
+  <ellipse cx="215" cy="158" rx="85" ry="58" fill="#808080"/>
+  <ellipse cx="155" cy="142" rx="48" ry="42" fill="#808080"/>
+  <polygon points="135,127 125,95 140,122" fill="#778899"/>
+  <polygon points="125,135 115,110 128,130" fill="#778899"/>
+  <circle cx="148" cy="132" r="8" fill="#000"/>
+  <ellipse cx="235" cy="188" rx="19" ry="13" fill="#808080"/>
+  <ellipse cx="205" cy="188" rx="19" ry="13" fill="#808080"/>
+  <ellipse cx="175" cy="188" rx="19" ry="13" fill="#808080"/>
+  <ellipse cx="255" cy="188" rx="19" ry="13" fill="#808080"/>
+  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Rhino #2</text>
+</svg>

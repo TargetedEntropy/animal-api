@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#9A9289"/>
+  <ellipse cx="215" cy="158" rx="85" ry="58" fill="#808080">
+    <animate attributeName="cy" values="158;162;158" dur="2.5s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="155" cy="142" rx="48" ry="42" fill="#808080">
+    <animate attributeName="cy" values="142;146;142" dur="2.5s" repeatCount="indefinite"/>
+  </ellipse>
+  <polygon points="135,127 125,95 140,122" fill="#778899">
+    <animate attributeName="points" values="135,127 125,95 140,122; 135,131 125,99 140,126; 135,127 125,95 140,122" dur="2.5s" repeatCount="indefinite"/>
+  </polygon>
+  <circle cx="148" cy="132" r="8" fill="#000">
+    <animate attributeName="cy" values="132;136;132" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Rhino GIF #2</text>
+</svg>

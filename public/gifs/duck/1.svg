@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#87CEEB"/>
+  <g id="duck">
+    <ellipse cx="210" cy="150" rx="60" ry="50" fill="#FFD700">
+      <animate attributeName="cy" values="150;145;150" dur="1.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="170" cy="140" r="35" fill="#FFD700">
+      <animate attributeName="cy" values="140;135;140" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="135" r="7" fill="#000">
+      <animate attributeName="cy" values="135;130;135" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse cx="150" cy="145" rx="25" ry="15" fill="#FFA500">
+      <animate attributeName="cy" values="145;140;145" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="25;28;25" dur="1.5s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">Duck GIF #1</text>
+</svg>

@@ -10,6 +10,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+// Serve static files from public directory
+app.use(express.static(path.join(__dirname, '../public')));
+
 // Load animal data
 const animalsData = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../data/animals.json'), 'utf8')
@@ -77,7 +80,8 @@ app.get('/:animal', (req, res) => {
   const allMedia = [...animalData.images, ...animalData.gifs];
   const randomMedia = getRandomItem(allMedia);
 
-  res.redirect(randomMedia);
+  const filePath = path.join(__dirname, '../public', randomMedia);
+  res.sendFile(filePath);
 });
 
 // Get random image for an animal
@@ -98,7 +102,8 @@ app.get('/:animal/image', (req, res) => {
   }
 
   const randomImage = getRandomItem(animalData.images);
-  res.redirect(randomImage);
+  const filePath = path.join(__dirname, '../public', randomImage);
+  res.sendFile(filePath);
 });
 
 // Get random GIF for an animal
@@ -119,7 +124,8 @@ app.get('/:animal/gif', (req, res) => {
   }
 
   const randomGif = getRandomItem(animalData.gifs);
-  res.redirect(randomGif);
+  const filePath = path.join(__dirname, '../public', randomGif);
+  res.sendFile(filePath);
 });
 
 // Get all media for an animal

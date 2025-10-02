@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#B0E0E6"/>
+  <ellipse cx="205" cy="155" rx="65" ry="52" fill="#FFFFE0">
+    <animateTransform attributeName="transform" type="rotate" values="0 205 155; -10 205 155; 0 205 155; 10 205 155; 0 205 155" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="165" cy="142" r="38" fill="#FFFFE0">
+    <animateTransform attributeName="transform" type="rotate" values="0 165 142; -10 165 142; 0 165 142; 10 165 142; 0 165 142" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="158" cy="138" r="8" fill="#000"/>
+  <ellipse cx="145" cy="148" rx="28" ry="16" fill="#FFB347"/>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">Duck GIF #2</text>
+</svg>

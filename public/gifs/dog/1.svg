@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#8B6914"/>
+  <g id="dog">
+    <circle cx="200" cy="150" r="50" fill="#D2691E"/>
+    <circle cx="180" cy="140" r="8" fill="#000"/>
+    <circle cx="220" cy="140" r="8" fill="#000"/>
+    <path d="M 180 160 Q 200 170 220 160" stroke="#000" stroke-width="2" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 200 150" to="360 200 150" dur="3s" repeatCount="indefinite"/>
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Dog GIF #1</text>
+</svg>

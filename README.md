@@ -57,21 +57,21 @@ Lists all available animal types with their image and GIF counts.
 ```
 
 ### `GET /:animal`
-Returns a random image or GIF for the specified animal (redirects to the media URL).
+Returns a random image or GIF for the specified animal (serves the file directly).
 
 **Example:**
 - `GET /dog` - Random dog image or GIF
 - `GET /cat` - Random cat image or GIF
 
 ### `GET /:animal/image`
-Returns a random image for the specified animal (redirects to the image URL).
+Returns a random image for the specified animal (serves the file directly).
 
 **Example:**
 - `GET /dog/image` - Random dog image
 - `GET /turtle/image` - Random turtle image
 
 ### `GET /:animal/gif`
-Returns a random GIF for the specified animal (redirects to the GIF URL).
+Returns a random GIF for the specified animal (serves the file directly).
 
 **Example:**
 - `GET /dog/gif` - Random dog GIF
@@ -95,25 +95,26 @@ Returns all available images and GIFs for the specified animal.
 
 To add a new animal type:
 
-1. Edit `data/animals.json`
-2. Add a new entry with the animal type as the key:
+1. Create image files in `public/images/{animal}/` directory
+2. Create GIF files in `public/gifs/{animal}/` directory (use SVG with animations or actual GIF files)
+3. Edit `data/animals.json` and add a new entry with the animal type as the key:
 
 ```json
 {
   "newanimal": {
     "name": "New Animal",
     "images": [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg"
+      "images/newanimal/1.svg",
+      "images/newanimal/2.svg"
     ],
     "gifs": [
-      "https://example.com/gif1.gif"
+      "gifs/newanimal/1.svg"
     ]
   }
 }
 ```
 
-3. Restart the server
+4. Restart the server
 
 No code changes required - the API automatically picks up new animal types from the JSON file.
 
@@ -128,12 +129,29 @@ npm test
 ```
 animal-api/
 ├── data/
-│   └── animals.json       # Animal data (images and GIFs)
+│   └── animals.json           # Animal data (file paths to images and GIFs)
+├── public/
+│   ├── images/
+│   │   ├── dog/               # Dog images (SVG files)
+│   │   ├── cat/               # Cat images
+│   │   ├── turtle/            # Turtle images
+│   │   ├── duck/              # Duck images
+│   │   ├── gopher/            # Gopher images
+│   │   └── rhino/             # Rhino images
+│   └── gifs/
+│       ├── dog/               # Dog GIFs (animated SVG files)
+│       ├── cat/               # Cat GIFs
+│       ├── turtle/            # Turtle GIFs
+│       ├── duck/              # Duck GIFs
+│       ├── gopher/            # Gopher GIFs
+│       └── rhino/             # Rhino GIFs
 ├── src/
-│   └── index.js          # Main API server
+│   └── index.js              # Main API server
 ├── package.json
 └── README.md
 ```
+
+**Note:** The current implementation uses SVG files for images and animated SVGs for GIFs. You can replace these with actual JPG, PNG, or GIF files as needed.
 
 ## License
 

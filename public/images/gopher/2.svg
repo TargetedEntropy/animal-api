@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#A0826D"/>
+  <ellipse cx="200" cy="168" rx="58" ry="68" fill="#CD853F"/>
+  <circle cx="200" cy="132" r="42" fill="#CD853F"/>
+  <circle cx="183" cy="127" r="10" fill="#000"/>
+  <circle cx="217" cy="127" r="10" fill="#000"/>
+  <ellipse cx="200" cy="143" rx="9" ry="7" fill="#000"/>
+  <circle cx="168" cy="112" r="11" fill="#CD853F"/>
+  <circle cx="232" cy="112" r="11" fill="#CD853F"/>
+  <rect x="188" y="148" width="7" height="14" fill="#FFF"/>
+  <rect x="205" y="148" width="7" height="14" fill="#FFF"/>
+  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Gopher #2</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#006400"/>
+  <ellipse cx="200" cy="160" rx="77" ry="49" fill="#556B2F">
+    <animateTransform attributeName="transform" type="rotate" values="0 200 160; 5 200 160; 0 200 160; -5 200 160; 0 200 160" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="200" cy="133" rx="24" ry="20" fill="#ADFF2F"/>
+  <circle cx="194" cy="130" r="4" fill="#000"/>
+  <circle cx="206" cy="130" r="4" fill="#000"/>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Turtle GIF #3</text>
+</svg>

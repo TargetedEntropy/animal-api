@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#2E2E2E"/>
+  <circle cx="200" cy="150" r="52" fill="#000"/>
+  <polygon points="155,105 145,80 165,95" fill="#000"/>
+  <polygon points="245,105 255,80 235,95" fill="#000"/>
+  <circle cx="185" cy="145" r="9" fill="#32CD32">
+    <animate attributeName="r" values="9;4;9" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="215" cy="145" r="9" fill="#32CD32">
+    <animate attributeName="r" values="9;4;9" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Cat GIF #2</text>
+</svg>

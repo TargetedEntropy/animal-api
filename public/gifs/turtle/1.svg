@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#005500"/>
+  <g id="turtle">
+    <ellipse cx="200" cy="160" rx="75" ry="48" fill="#228B22">
+      <animate attributeName="rx" values="75;78;75" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="48;45;48" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="200" cy="135" rx="23" ry="19" fill="#90EE90"/>
+    <circle cx="194" cy="132" r="4" fill="#000"/>
+    <circle cx="206" cy="132" r="4" fill="#000"/>
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Turtle GIF #1</text>
+</svg>

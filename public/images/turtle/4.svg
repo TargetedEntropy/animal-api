@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#003300"/>
+  <ellipse cx="200" cy="162" rx="78" ry="50" fill="#2F4F2F"/>
+  <polygon points="200,130 225,150 215,170 185,170 175,150" fill="#556B2F"/>
+  <ellipse cx="200" cy="128" rx="24" ry="20" fill="#7CFC00"/>
+  <circle cx="194" cy="125" r="4" fill="#000"/>
+  <circle cx="206" cy="125" r="4" fill="#000"/>
+  <circle cx="152" cy="180" r="10" fill="#3CB371"/>
+  <circle cx="248" cy="180" r="10" fill="#3CB371"/>
+  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Turtle #4</text>
+</svg>

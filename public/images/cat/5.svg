@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#4B4B4B"/>
+  <circle cx="200" cy="155" r="58" fill="#FFA500"/>
+  <polygon points="152,108 143,80 162,98" fill="#FFA500"/>
+  <polygon points="248,108 257,80 238,98" fill="#FFA500"/>
+  <circle cx="182" cy="148" r="10" fill="#228B22"/>
+  <circle cx="218" cy="148" r="10" fill="#228B22"/>
+  <circle cx="182" cy="148" r="5" fill="#000"/>
+  <circle cx="218" cy="148" r="5" fill="#000"/>
+  <path d="M 185 165 L 200 172 L 215 165" stroke="#000" stroke-width="2" fill="none"/>
+  <text x="200" y="250" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">Cat #5</text>
+</svg>

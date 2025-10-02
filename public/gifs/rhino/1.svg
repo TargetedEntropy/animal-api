@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#8B8378"/>
+  <g id="rhino">
+    <ellipse cx="220" cy="160" rx="80" ry="55" fill="#696969">
+      <animate attributeName="rx" values="80;83;80" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="160" cy="145" rx="45" ry="40" fill="#696969"/>
+    <polygon points="140,130 130,100 145,125" fill="#708090">
+      <animateTransform attributeName="transform" type="rotate" values="0 140 130; -5 140 130; 0 140 130; 5 140 130; 0 140 130" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="150" cy="135" r="7" fill="#000"/>
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Rhino GIF #1</text>
+</svg>

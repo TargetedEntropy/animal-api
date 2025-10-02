@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#4E4E4E"/>
+  <ellipse cx="200" cy="150" rx="60" ry="50" fill="#FF8C00">
+    <animate attributeName="ry" values="50;55;50" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+  <polygon points="150,108 140,83 160,98" fill="#FF8C00"/>
+  <polygon points="250,108 260,83 240,98" fill="#FF8C00"/>
+  <circle cx="182" cy="143" r="8" fill="#FFD700"/>
+  <circle cx="218" cy="143" r="8" fill="#FFD700"/>
+  <circle cx="182" cy="143" r="4" fill="#000"/>
+  <circle cx="218" cy="143" r="4" fill="#000"/>
+  <path d="M 185 160 L 200 167 L 215 160" stroke="#000" stroke-width="2" fill="none">
+    <animate attributeName="d" values="M 185 160 L 200 167 L 215 160; M 185 160 L 200 164 L 215 160; M 185 160 L 200 167 L 215 160" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <text x="200" y="280" font-family="Arial" font-size="20" fill="#FFF" text-anchor="middle">Cat GIF #3</text>
+</svg>
